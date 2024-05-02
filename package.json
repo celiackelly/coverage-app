@@ -1,0 +1,25 @@
+{
+  "name": "coverage-app",
+  "version": "1.0.0",
+  "description": "A web app in Google Sheets for finding coverage for teachers' classes",
+  "main": "Code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "format": "prettier --log-level warn --write \"src/**/*.{js,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/celiackelly/coverage-app"
+  },
+  "keywords": [
+    "school",
+    "schedule",
+    "coverage"
+  ],
+  "author": "Celia Kelly",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.83",
+    "prettier": "^3.2.5"
+  }
+}
